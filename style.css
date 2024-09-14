@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* changing the value of 1rem = 10px */
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Salsa", sans-serif;
+}
+
+.hero-section {
+  /* min-height: 100vh; */
+  background-color: #f99501;
+  background-image: url("images/hero-background.png");
+  /* background-size: contain; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-section p {
+  margin-top: 2rem;
+  font-size: 4rem;
+  font-weight: 400;
+  max-width: 55rem;
+}
+
+.jhalar {
+  width: 22rem;
+  margin-bottom: -18rem;
+}
+
+.para-and-audio {
+  margin-left: 24rem;
+}
+
+.soulful-text {
+  margin-inline: 0.2rem;
+  font-size: 1.4rem;
+}
+
+.audio-container {
+  margin-top: 3rem;
+  /* max-width: 500px; */
+  max-width: max-content;
+  display: flex;
+  background-color: #fbd8a4;
+  border-radius: 4.5rem;
+  align-items: center;
+  justify-content: center;
+  /* padding-left: 20px; */
+}
+
+.audio-container img {
+  margin-left: 1rem;
+}
+audio::-webkit-media-controls-panel {
+  background-color: #fbd8a4;
+}
+
+.deepak {
+  margin-left: 4rem;
+  width: 30rem;
+}
+
+.lakshmi-ganesh-section {
+  background-color: #f99501;
+  padding-top: 1.6rem;
+  padding-inline: 1.6rem;
+  /* for fomatting context 
+  display: flow-root;
+   */
+}
+
+.horizontal-divider {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  max-width: 80rem;
+  margin-inline: auto;
+  margin-top: 2rem;
+  margin-bottom: 3.2rem;
+}
+
+.horizontal-line {
+  height: 0.2rem;
+  width: 46.5rem;
+  background-color: #fbd8a4;
+}
+
+.circle {
+  height: 1rem;
+  width: 1rem;
+  background-color: #fbd8a4;
+  border-radius: 100%;
+  flex-shrink: 0;
+}
+
+.lakshmi-ganesh-image {
+  max-width: 100rem;
+  width: 100%;
+  display: block;
+  margin-inline: auto;
+}
+
+.lakshmi-ganesh-section h2 {
+  font-family: "Style Script", sans-serif;
+  font-size: 5.6rem;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.white-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3.2rem;
+}
+
+.white-card {
+  max-width: 60rem;
+  padding: 6.4rem;
+  border-radius: 2.4rem;
+  background-color: white;
+}
+
+.white-card p {
+  font-size: 3.2rem;
+}
+
+.little-girl {
+  max-width: 25rem;
+  margin-left: -8rem;
+}
+
+.lakshmi-ganesh-card {
+  background-color: white;
+  border-radius: 2.4rem;
+  padding: 2rem;
+  /* max-width: 100rem; */
+  width: 100rem;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  gap: 1rem;
+  /* width: 100%; */
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.image-container img {
+  width: 50%;
+}
+
+.thank-you-text {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 90rem;
+  margin-inline: auto;
+}
+
+.thank-you-text p {
+  font-size: 2.5rem;
+}
+
+.thank-you-text h2 {
+  text-align: left;
+}
+
+.my-name {
+  text-align: right;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+/* @media (width<840px)
+{
+  .second-deepak{
+    display: none;
+  }
+} */
+
+@media (max-width: 840px) {
+  .first-deepak {
+    display: block;
+    margin-left: auto;
+  }
+
+  .second-deepak,
+  .soulful-text,
+  .playing-music-icon {
+    display: none;
+  }
+
+  .para-and-audio {
+    margin-left: 1.6rem;
+  }
+
+  .jhalar {
+    margin-bottom: 0;
+  }
+
+  .audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-section p {
+    font-size: 3.2rem;
+  }
+
+  .white-card {
+    padding-block: 1.6rem;
+    padding-left: 3.2rem;
+  }
+
+  .white-card p {
+    font-size: 2rem;
+    padding: 1.5rem;
+  }
+
+  .little-girl {
+    max-width: 16rem;
+  }
+
+  .lakshmi-ganesh-card {
+    padding: 3.2rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .hero-section p {
+    font-size: 2.4rem;
+  }
+
+  .first-deepak {
+    max-width: 28rem;
+    width: 100%;
+  }
+
+  .lakshmi-ganesh-section h2 {
+    font-size: 3.2rem;
+  }
+
+  .white-card p {
+    font-size: 1.6rem;
+  }
+
+  .little-girl {
+    max-width: 16rem;
+  }
+}

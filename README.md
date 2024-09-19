@@ -43,4 +43,4 @@ Please make sure to update tests as appropriate.
 
 ## 🫡 Credits
 
-This portfolio was inspired by the work of [Anurag Singh](https://github.com/https://github.com/anuragsinghbam). Their creativity and innovation motivated me to build my own version.
+This respository was inspired by the work of [Anurag Singh Procodrr](https://github.com/procodrr). Their creativity and innovation motivated me to build my own version.

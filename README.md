@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-   <a href="https://arpit73881.github.io/Diwali-Wishes/" target="_blank"><img src="https://i.ibb.co/86Rj1BC/Screenshot-2024-09-14-122222.png" alt="Main-Cover" border="0"></a>
+   <a href="https://arpit73881.github.io/Diwali-Wishes/" target="_blank"><img src="https://github.com/user-attachments/assets/f62a0eff-5aaf-430d-9731-e5070d8815a6" alt="Main-Cover" border="0"></a>
   <br />
 
 # [Diwali Wishes](https://arpit73881.github.io/Diwali-Wishes/)

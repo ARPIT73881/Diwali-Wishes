@@ -41,6 +41,6 @@ to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## 🫡 Credits
+## <a name="credits"> 🫡 Credits</a>
 
 This respository was inspired by the work of [Anurag Singh Procodrr](https://github.com/procodrr). Their creativity and innovation motivated me to build my own version.
